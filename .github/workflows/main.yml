@@ -22,4 +22,4 @@ jobs:
         run: npm install --global surge
 
       - name: Desplegar a Surge.sh
-        run: surge ./ enmanuel-Alduey.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ enmanuel-alduey.surge.sh --token ${{ secrets.SURGE_TOKEN }}
